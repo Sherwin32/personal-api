@@ -15,6 +15,7 @@
 
     <!-- APPLICATION SCRIPTS -->
     <script src="/scripts/app.js"></script>
+    <script src="/scripts/handlebars-v4.0.10.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,6 +23,27 @@
         <div class="col-md-8 col-md-offset-2">
           <h1>Under Construction</h1>
           <h4><a href="/api">Read My API Documentation</a></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class="profile">My Profile</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2" id="display">
+                    <!-- handlebars profile template -->
+          <script id="profile-template" type="text/x-handlebars-template">
+            <!-- {{#each profile}} -->
+<!--               <h2>My Profile</h2>
+              <ul>
+                <li>Name: {{name}}</li>
+                <li>Github: <a href="{{githubLink}}">Click me</a></li>
+                <li>Name: {{name}}</li>
+                <li>Name: {{name}}</li> -->
+              </ul>
+            <!-- {{/each}} -->
+          </script>
         </div>
       </div>
     </div>
